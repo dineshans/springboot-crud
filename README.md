@@ -27,3 +27,7 @@
 			"name": "Dinesh",
 			"role": "Developer & DevOps"
 		}'
+		
+4) Delete API:
+
+		curl --location --request DELETE 'localhost:8080/api/employees/deleteEmployees'

@@ -57,7 +57,7 @@ public class EmpController {
 
     }
 
-    @DeleteMapping(value = "/deleteEmployee", produces = "application/json")
+    @DeleteMapping(value = "/deleteEmployees", produces = "application/json")
     public ResponseEntity<Void> deleteEmployee() {
 
         empRepository.deleteAll();
