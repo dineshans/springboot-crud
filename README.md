@@ -7,6 +7,7 @@
 # Rest API end Point - curl command
 
 1) GET API:
+		
 		curl --location 'localhost:8080/api/employees/empDetails'
 
 2) POST API: 
